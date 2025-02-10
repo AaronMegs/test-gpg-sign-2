@@ -4,3 +4,4 @@ src/main/resources/application.properties encoding=GB18030
 gbx.txt encoding=GBK
 commit_msg.txt encoding=GBK
 commit-msg-encoding encoding=GBk
+*.go encoding=GBK
