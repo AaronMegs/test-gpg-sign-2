@@ -1,0 +1,18 @@
+@startuml
+package "Git Repository System" {
+  [GPG Key Management] as KeyMgmt
+  [Signature Verification] as SigVerify 
+  [Web Interface] as Web
+  [Database] as DB
+  
+  cloud "External Services" {
+    [OpenPGP Library] as OpenPGP
+  }
+}
+
+KeyMgmt --> DB: Store Keys
+Web --> KeyMgmt: Upload/Manage Keys
+Web --> SigVerify: View Status
+SigVerify --> OpenPGP: Verify Signatures
+SigVerify --> DB: Query Keys
+@enduml
