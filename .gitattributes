@@ -5,6 +5,5 @@ gbx.txt encoding=GBK
 commit_msg.txt encoding=GBK
 commit-msg-encoding encoding=GBk
 *.go encoding=GBK
-*.txt encoding=ASCII
 b.txt encoding=GBK
 文件对比乱码.txt encoding=GBK
