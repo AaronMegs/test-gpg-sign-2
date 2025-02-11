@@ -1,0 +1,9 @@
+// 你好啊
+// 你好啊aaabbb
+// aabbcc你好啊 
+// 你好 aabbcc 你好
+func main() {
+    // 这是注释aaabbbccda
+    fmt.Println("Hello, 嗷嗷嗷!")
+    // TODO: 你好啊
+}
