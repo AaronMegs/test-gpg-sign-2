@@ -1,2 +1,3 @@
 aaaaaa:aaaaaaaa
 test invalid gpg
+test invalid gpg 222
