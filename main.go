@@ -1,7 +1,7 @@
 package main
 
 import (
-    "fmt"a
+    "fmt"
     "github.com/saintfish/chardet"
 )
 

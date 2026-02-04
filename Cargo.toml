@@ -1,0 +1,16 @@
+[package]
+name = "depot-gbk-rust"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "depot-gbk-rust"
+path = "src/main.rs"
+
+[lib]
+name = "depot_gbk_rust"
+path = "src/lib.rs"
+
+[dependencies]
+chardet = "0.2"
+clap = { version = "4.0", features = ["derive"] }
